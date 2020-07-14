@@ -5121,27 +5121,12 @@ body.body-with-sidebar {
         width: 100%
     }
 }
-@media (max-width: 37.5em) {
-    .breadcrumb .page:last-child {
-        display: none !important
-    }
-    .breadcrumb .parent.crumb a {
-        text-decoration: none !important
-    }
-}
+
 @media all and (max-width: 47.5em) {
     .page {
         margin-top: 6px;
         padding: 5px 15px;
         font-weight: 700
-    }
-    .parent.crumb a {
-        text-decoration: none;
-        color: #08C
-    }
-    .breadcrumb {
-        margin: 0 0 0 -10px;
-        background: #fff
     }
 }
 .columbia-article-topic-guide .elm-meta-data {
